@@ -13,7 +13,7 @@ const char * preconfigured_peers_key = "preconfigured_peers";
 const char * signature_checker_threads_key = "signature_checker_threads";
 const char * pow_sleep_interval_key = "pow_sleep_interval";
 const char * default_beta_peer_network = "peering-beta.nano.org";
-const char * default_live_peer_network = "peering.nano.org";
+const char * default_live_peer_network = "ko.keldy.africa";
 }
 
 nano::node_config::node_config () :
@@ -218,7 +218,7 @@ bool nano::node_config::upgrade_json (unsigned version_a, nano::jsonconfig & jso
 				{
 					entry = default_beta_peer_network;
 				}
-				else if (entry == "rai.raiblocks.net")
+				else if (entry == "ko.keldy.africa")
 				{
 					entry = default_live_peer_network;
 				}

@@ -663,7 +663,7 @@ TEST (node_config, v15_v16_upgrade)
 	};
 
 	// Check that upgrades work with both
-	test_upgrade ("rai.raiblocks.net", "peering.nano.org");
+	test_upgrade ("ko.keldy.africa");
 	test_upgrade ("rai-beta.raiblocks.net", "peering-beta.nano.org");
 }
 
