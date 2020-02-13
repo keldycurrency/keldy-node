@@ -87,7 +87,7 @@ nano_beta_genesis (beta_genesis_data),
 nano_live_genesis (live_genesis_data),
 genesis_account (network_a == nano::nano_networks::nano_test_network ? nano_test_account : network_a == nano::nano_networks::nano_beta_network ? nano_beta_account : nano_live_account),
 genesis_block (network_a == nano::nano_networks::nano_test_network ? nano_test_genesis : network_a == nano::nano_networks::nano_beta_network ? nano_beta_genesis : nano_live_genesis),
-genesis_amount (nano::uint128_t ("500000000000000000000000000000000000000")),
+genesis_amount (nano::uint128_t ("300000000000000000000000000000000000000")),
 burn_account (0)
 {
 }
